@@ -1,4 +1,4 @@
-
+from random import randint
 
 def bubble_sort(data):
     for i in range(len(data)-1):
@@ -20,5 +20,52 @@ def selection_sort(data):
         yield data, color
 
 
+def insertion_sort(data):
+    for i in range(1, len(data)):
+        j = i
+        while data[j-1] > data[j] and j > 0:
+            data[j], data[j-1] = data[j-1], data[j]
+            j -= 1
+            yield data
+
+
+def merge_sort(data): 
+    if len(data) > 1: 
+        mid = len(data)//2
+        left = data[:mid] 
+        right = data[mid:]
+        merge_sort(left) 
+        merge_sort(right) 
+
+        i = j = k = 0
+
+        while i < len(left) and j < len(right): 
+            if left[i] < right[j]: 
+                data[k] = left[i] 
+                i += 1
+            else: 
+                data[k] = right[j] 
+                j += 1
+            k += 1
+
+        while i < len(left): 
+            data[k] = left[i] 
+            i += 1
+            k += 1
+
+        while j < len(right): 
+            data[k] = right[j] 
+            j += 1
+            k += 1
+    
+
 if __name__ == '__main__':
-    pass
+    data = [randint(-10, 10) for _ in range(7)]
+    # ins = insertion_sort(data)
+    # while True:
+    #     new = input('new: ')
+    #     if new == 'n':
+    #         print(next(ins))
+    #     else:
+    #         break
+

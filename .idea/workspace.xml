@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8944098-1779-4ab8-ac2a-38169f34d1a0" name="Changes" comment="added bubble_sort">
+    <list default="true" id="c8944098-1779-4ab8-ac2a-38169f34d1a0" name="Changes" comment="Added selection_sort + colors for swapping els">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Visualisation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Visualisation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sort_funcs.py" beforeDir="false" afterPath="$PROJECT_DIR$/sort_funcs.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +42,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Python.BubbleSort.executor": "Run",
     "Python.Visualisation.executor": "Run",
+    "Python.exec_time.executor": "Run",
     "Python.main.executor": "Run",
     "Python.sort_funcs.executor": "Run",
     "Python.test.executor": "Run",
@@ -100,11 +100,20 @@
       <option name="project" value="LOCAL" />
       <updated>1707082719906</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added selection_sort + colors for swapping els">
+      <option name="closed" value="true" />
+      <created>1707084145003</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707084145003</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added bubble_sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="added bubble_sort" />
+    <MESSAGE value="Added selection_sort + colors for swapping els" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added selection_sort + colors for swapping els" />
   </component>
 </project>
